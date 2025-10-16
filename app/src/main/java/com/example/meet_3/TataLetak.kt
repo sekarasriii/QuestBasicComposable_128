@@ -154,5 +154,9 @@ fun TataLetakBoxColumnRow(modifier: Modifier = Modifier) {
                 color = Color.Red,
                 fontWeight = FontWeight.Bold,
                 fontFamily = FontFamily.Cursive,
-
+                modifier = Modifier.align(Alignment.Center)
+            )
+        }
+    }
+}
 
