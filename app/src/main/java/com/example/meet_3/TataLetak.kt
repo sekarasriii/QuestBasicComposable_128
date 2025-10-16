@@ -148,4 +148,6 @@ fun TataLetakBoxColumnRow(modifier: Modifier = Modifier) {
                 contentDescription = null,
                 contentScale = ContentScale.Fit
             )
+            Text(
+                text = "My Music",
 
