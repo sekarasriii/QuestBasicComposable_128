@@ -142,4 +142,10 @@ fun TataLetakBoxColumnRow(modifier: Modifier = Modifier) {
                 .fillMaxWidth()
                 .height(300.dp)
                 .background(Color.Cyan)
-        )
+        ){
+            Image(
+                painter = gambar,
+                contentDescription = null,
+                contentScale = ContentScale.Fit
+            )
+
