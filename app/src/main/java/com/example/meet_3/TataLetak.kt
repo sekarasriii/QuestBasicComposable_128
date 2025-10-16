@@ -150,4 +150,6 @@ fun TataLetakBoxColumnRow(modifier: Modifier = Modifier) {
             )
             Text(
                 text = "My Music",
+                fontSize = 50.sp,
+
 
