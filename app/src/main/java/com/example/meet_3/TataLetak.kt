@@ -136,3 +136,10 @@ fun TataLetakBoxColumnRow(modifier: Modifier = Modifier) {
 
         Spacer(modifier = Modifier.height(10.dp))
 
+        // BOX 2 (Cyan)
+        Box(
+            modifier = modifier
+                .fillMaxWidth()
+                .height(300.dp)
+                .background(Color.Cyan)
+        )
