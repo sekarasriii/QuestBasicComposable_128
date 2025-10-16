@@ -21,6 +21,15 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.meet_3.ui.theme.Meet3Theme
 
+@Composable
+fun TataLetakColumn(modifier: Modifier = Modifier) {
+    Column(modifier = modifier.padding(top = 20.dp)) {
+        Text(text = "Komponen1")
+        Text(text = "Komponen2")
+        Text(text = "Komponen3")
+        Text(text = "Komponen4")
+    }
+}
 
 
 
